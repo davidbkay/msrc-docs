@@ -1,20 +1,22 @@
 module.exports = {
-  title: 'MSRC User Guide',
-  description: ' ',
+  title: 'MSRC',
+  description: 'Welcome to the user guide.',
   lastUpdated: 'Last Updated',
   themeConfig:{
     displayAllHeaders: 'true',
     sidebarDepth: 2,
     nav: [
-        { text: 'Accountability', link: '/accountability/' },
-        { text: 'Terminology', link: '/terminology/' },
-        { text: 'Non-accountability', link: '/nonaccountability' }
+        { text: 'Accountability System', link: '/accountability/' },
+        { text: 'Report Cards', link: '/terminology/' },
+        { text: 'msrc.mdk12.org', link: 'https://msrc.mdek12.org' },
+        { text: 'MDE', link: 'https://www.mdek12.org' },
     ],
     sidebar: [
       {
         title: 'Accountability',
         children: [
-          '/accountability/'
+          '/accountability/',
+          '/accountability/terminology'
         ]
       },
       {
@@ -25,34 +27,8 @@ module.exports = {
           '/reportcard/othermeasures',
           '/reportcard/teachers',
           '/reportcard/schoolclimate'
-          //'/reportcard/assessment',
-          //'/reportcard/teachers',
-          //'/reportcard/naep',
-          //'/reportcard/graduation',
-          //'/reportcard/goals',
-          //'/reportcard/englishlearners',
-          //'/reportcard/ppe',
-          //'/reportcard/improvement' 
         ]
       }
     ]
-    //sidebar: 'auto',
-    //[
-    //    {
-    //      title: 'Accountability',
-    //      collapsable: false,
-    //      children: [
-    //        '/accountability/accountabilityScores',
-    //        '/accountability/accountabilityCategories'
-    //      ]
-    //    },
-    //    {
-    //      title: 'Report Card Data',
-    //      collapsable: false,
-    //      children: [
-    //          '/reportcard/teachers'
-    //      ]
-    //    }
-    //  ]
 }
 }
