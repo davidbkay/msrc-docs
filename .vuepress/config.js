@@ -33,13 +33,6 @@ module.exports = {
           //'/reportcard/ppe',
           //'/reportcard/improvement' 
         ]
-      },
-      {
-        title: 'Other Measures',
-        collapsable: true,
-        children: [
-          'other/'
-        ]
       }
     ]
     //sidebar: 'auto',
