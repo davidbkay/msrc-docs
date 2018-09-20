@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davidbkay/msrc-docs/issues"
   },
-  "homepage": "https://github.com/davidbkay/msrc-docs#readme"
+  "homepage": "https://github.com/davidbkay/msrc-docs#readme",
+  "dependencies": {
+    "vuepress": "^0.14.4"
+  }
 }
