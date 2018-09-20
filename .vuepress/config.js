@@ -1,6 +1,7 @@
 module.exports = {
   title: 'MSRC User Guide',
   description: ' ',
+  lastUpdated: 'Last Updated',
   themeConfig:{
     displayAllHeaders: 'true',
     sidebarDepth: 2,
