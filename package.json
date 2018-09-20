@@ -1,6 +1,20 @@
 {
+  "name": "msrc-docs",
+  "version": "1.0.0",
+  "description": "--- home: true title: Home features: - title: Accountability   details: Info on accountability - title: Terminology   details: Explanations of jargony stuff - title: Non-accountability features   details: other stuff footer: Made with Vuepress ---",
+  "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build docs"
-  }
+    "docs:build": "vuepress build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbkay/msrc-docs.git"
+  },
+  "author": "David Kay <davidbkay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidbkay/msrc-docs/issues"
+  },
+  "homepage": "https://github.com/davidbkay/msrc-docs#readme"
 }
-
